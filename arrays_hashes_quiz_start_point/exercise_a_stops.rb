@@ -11,7 +11,7 @@ stops.unshift("Glasgow Queen Street")
 stops.insert(4, "Polmont")
 
 #4. Print out the index position of "Linlithgow"
-p stops.index("Linlithgow")
+stops.index("Linlithgow")
 
 #5. Remove "Livingston" from the array using its name
 stops.delete("Livingston")
@@ -29,3 +29,7 @@ stops.values_at(2)
 #9. Reverse the positions of the stops in the array
 stops.reverse!
 #10 Print out all the stops using a for loop
+
+for x in stops
+  p x
+end
